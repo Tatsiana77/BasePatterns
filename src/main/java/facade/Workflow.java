@@ -1,6 +1,7 @@
 package facade;
 
-// Шаб
+// Шаблон фасад
+//to provide unified interface instead of multiple subsystem interfaces
 public class Workflow {
     Developer developer = new Developer();
     Job job = new Job();
