@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>factory</OriginalElement>
+  <nodes>
+    <node x="372.08333333333337" y="0.0">factory.Developer</node>
+    <node x="49.916666666666686" y="226.0">factory.JavaDeveloperFactory</node>
+    <node x="210.28722222222228" y="123.0">factory.PhpDeveloper</node>
+    <node x="355.6833333333334" y="329.0">factory.Program</node>
+    <node x="614.3333333333334" y="123.0">factory.CppDeveloper</node>
+    <node x="277.9166666666667" y="226.0">factory.PhpDeveloperFactory</node>
+    <node x="594.25" y="226.0">factory.CppDeveloperFactory</node>
+    <node x="0.0" y="123.0">factory.JavaDeveloper</node>
+    <node x="396.33333333333337" y="123.0">factory.DeveloperFactory</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="factory.CppDeveloperFactory" target="factory.DeveloperFactory">
+      <point x="-66.66666666666669" y="-26.5" />
+      <point x="627.5833333333334" y="206.0" />
+      <point x="569.5833333333334" y="206.0" />
+      <point x="74.25" y="26.5" />
+    </edge>
+    <edge source="factory.JavaDeveloperFactory" target="factory.DeveloperFactory">
+      <point x="69.33333333333331" y="-26.5" />
+      <point x="223.25" y="206.0" />
+      <point x="421.08333333333337" y="206.0" />
+      <point x="-74.25" y="26.5" />
+    </edge>
+    <edge source="factory.PhpDeveloperFactory" target="factory.PhpDeveloper">
+      <point x="-66.66666666666663" y="-26.5" />
+      <point x="311.25000000000006" y="196.0" />
+      <point x="282.2872222222223" y="196.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="factory.Program" target="factory.DeveloperFactory">
+      <point x="0.0" y="-37.5" />
+      <point x="24.75" y="26.5" />
+    </edge>
+    <edge source="factory.JavaDeveloperFactory" target="factory.Developer">
+      <point x="0.0" y="-26.5" />
+      <point x="153.91666666666669" y="206.0" />
+      <point x="162.5" y="206.0" />
+      <point x="162.5" y="83.0" />
+      <point x="397.77083333333337" y="83.0" />
+      <point x="-42.8125" y="26.5" />
+    </edge>
+    <edge source="factory.PhpDeveloperFactory" target="factory.Developer">
+      <point x="0.0" y="-26.5" />
+      <point x="377.9166666666667" y="196.0" />
+      <point x="385.83333333333337" y="196.0" />
+      <point x="385.83333333333337" y="103.0" />
+      <point x="432.02083333333337" y="103.0" />
+      <point x="-8.5625" y="26.5" />
+    </edge>
+    <edge source="factory.Program" target="factory.JavaDeveloperFactory">
+      <point x="-131.2" y="-37.5" />
+      <point x="388.48333333333335" y="309.0" />
+      <point x="153.91666666666669" y="309.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="factory.PhpDeveloper" target="factory.Developer">
+      <point x="0.0" y="-26.5" />
+      <point x="282.2872222222223" y="93.0" />
+      <point x="414.89583333333337" y="93.0" />
+      <point x="-25.6875" y="26.5" />
+    </edge>
+    <edge source="factory.CppDeveloperFactory" target="factory.CppDeveloper">
+      <point x="0.0" y="-26.5" />
+      <point x="694.25" y="206.0" />
+      <point x="686.3333333333334" y="206.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="factory.CppDeveloperFactory" target="factory.Developer">
+      <point x="66.66666666666666" y="-26.5" />
+      <point x="760.9166666666667" y="206.0" />
+      <point x="775.3919444444446" y="206.0" />
+      <point x="775.3919444444446" y="83.0" />
+      <point x="483.39583333333337" y="83.0" />
+      <point x="42.8125" y="26.5" />
+    </edge>
+    <edge source="factory.Program" target="factory.CppDeveloperFactory">
+      <point x="65.60000000000002" y="-37.5" />
+      <point x="585.2833333333334" y="299.0" />
+      <point x="694.25" y="299.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="factory.Program" target="factory.PhpDeveloperFactory">
+      <point x="-65.60000000000002" y="-37.5" />
+      <point x="454.08333333333337" y="299.0" />
+      <point x="377.9166666666667" y="299.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="factory.CppDeveloper" target="factory.Developer">
+      <point x="0.0" y="-26.5" />
+      <point x="686.3333333333334" y="93.0" />
+      <point x="466.27083333333337" y="93.0" />
+      <point x="25.6875" y="26.5" />
+    </edge>
+    <edge source="factory.DeveloperFactory" target="factory.Developer">
+      <point x="0.0" y="-26.5" />
+      <point x="495.33333333333337" y="103.0" />
+      <point x="449.14583333333337" y="103.0" />
+      <point x="8.5625" y="26.5" />
+    </edge>
+    <edge source="factory.PhpDeveloperFactory" target="factory.DeveloperFactory">
+      <point x="66.66666666666663" y="-26.5" />
+      <point x="444.5833333333333" y="206.0" />
+      <point x="470.58333333333337" y="206.0" />
+      <point x="-24.75" y="26.5" />
+    </edge>
+    <edge source="factory.JavaDeveloperFactory" target="factory.JavaDeveloper">
+      <point x="-69.33333333333331" y="-26.5" />
+      <point x="84.58333333333337" y="206.0" />
+      <point x="76.0" y="206.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="factory.Program" target="factory.Developer">
+      <point x="131.19999999999993" y="-37.5" />
+      <point x="650.8833333333333" y="309.0" />
+      <point x="804.75" y="309.0" />
+      <point x="804.75" y="73.0" />
+      <point x="500.52083333333337" y="73.0" />
+      <point x="59.9375" y="26.5" />
+    </edge>
+    <edge source="factory.JavaDeveloper" target="factory.Developer">
+      <point x="0.0" y="-26.5" />
+      <point x="76.0" y="73.0" />
+      <point x="380.64583333333337" y="73.0" />
+      <point x="-59.9375" y="26.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.4000000000000004" x="402.5" y="202.0" />
+  <SelectedNodes>
+    <node>factory.JavaDeveloper</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
