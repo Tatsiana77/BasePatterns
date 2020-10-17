@@ -3,22 +3,57 @@
   <ID>JAVA</ID>
   <OriginalElement>facade</OriginalElement>
   <nodes>
-    <node x="0.0" y="0.0">facade.Workflow</node>
-    <node x="194.0" y="263.0">facade.Job</node>
-    <node x="215.0" y="0.0">facade.BugTracker</node>
-    <node x="0.0" y="165.0">facade.Developer</node>
-    <node x="0.0" y="263.0">facade.SprintRunner</node>
+    <node x="187.99999999999997" y="251.0">facade.Workflow</node>
+    <node x="289.0" y="148.0">facade.Job</node>
+    <node x="167.14285714285714" y="0.0">facade.BugTracker</node>
+    <node x="0.0" y="148.0">facade.Developer</node>
+    <node x="198.49999999999997" y="421.0">facade.SprintRunner</node>
   </nodes>
   <notes />
-  <edges />
-  <settings layout="Hierarchic Group" zoom="1.0" x="202.0" y="237.0" />
-  <SelectedNodes />
+  <edges>
+    <edge source="facade.SprintRunner" target="facade.Workflow">
+      <point x="37.25" y="-26.5" />
+      <point x="310.25" y="396.0" />
+      <point x="315.5" y="396.0" />
+      <point x="42.5" y="60.0" />
+    </edge>
+    <edge source="facade.Workflow" target="facade.Developer">
+      <point x="-42.5" y="-60.0" />
+      <point x="230.49999999999997" y="221.0" />
+      <point x="192.75" y="221.0" />
+      <point x="64.25" y="26.5" />
+    </edge>
+    <edge source="facade.Workflow" target="facade.Job">
+      <point x="70.83333333333331" y="-60.0" />
+      <point x="343.83333333333326" y="231.0" />
+      <point x="375.25" y="231.0" />
+      <point x="28.75" y="26.5" />
+    </edge>
+    <edge source="facade.Developer" target="facade.BugTracker">
+      <point x="0.0" y="-26.5" />
+      <point x="128.5" y="123.0" />
+      <point x="190.97619047619045" y="123.0" />
+      <point x="-47.666666666666686" y="49.0" />
+    </edge>
+    <edge source="facade.Workflow" target="facade.BugTracker">
+      <point x="-14.166666666666657" y="-60.0" />
+      <point x="258.8333333333333" y="231.0" />
+      <point x="267.5" y="231.0" />
+      <point x="267.5" y="123.0" />
+      <point x="238.64285714285714" y="123.0" />
+      <point x="0.0" y="49.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.3000000000000003" x="220.00000000000006" y="242.00000000000003" />
+  <SelectedNodes>
+    <node>facade.Workflow</node>
+  </SelectedNodes>
   <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
     <Category>Methods</Category>
     <Category>Properties</Category>
     <Category>Inner Classes</Category>
-    <Category>Fields</Category>
-    <Category>Constructors</Category>
   </Categories>
   <SCOPE>All</SCOPE>
   <VISIBILITY>private</VISIBILITY>
