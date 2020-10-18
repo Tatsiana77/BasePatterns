@@ -8,13 +8,13 @@ public class TurkeyAdapter implements Duck {
     }
 
     public void quack() {
-        for (int i = 0; i < 3; i++) {
+        for (int i = 0; i < 2; i++) {
             turkey.gobble();
         }
     }
 
     public void fly() {
-        for (int i = 0; i < 5; i++) {
+        for (int i = 0; i < 4; i++) {
             turkey.fly();
         }
     }

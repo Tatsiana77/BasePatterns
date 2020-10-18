@@ -9,18 +9,18 @@ public class DuckTestDrive {
         Duck turkeyAdapter = new TurkeyAdapter(turkey);
         DuckAdapter duckAdapter = new DuckAdapter(duck);
 
-        System.out.println(" The turkey says ....");
+        System.out.println(" The turkey says - ");
         turkey.gobble();
         turkey.fly();
         testTurkey(turkey);
 
-        System.out.println("\n Duck says ....");
+        System.out.println("\n Duck says - " );
         duck.quack();
         duck.fly();
         testDuck(duck);
 
 
-        System.out.println("\n The TurkeyAdapter says....");
+        System.out.println("\n The TurkeyAdapter says - " );
         testDuck(turkeyAdapter);
 
         System.out.println("\n The DuckAdapter says - ");
