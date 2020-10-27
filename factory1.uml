@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>factory1</OriginalElement>
+  <nodes>
+    <node x="0.0" y="304.0">factory1.DoughnutFactory</node>
+    <node x="163.4" y="206.0">factory1.AlmondDoughnut</node>
+    <node x="0.0" y="491.0">factory1.Main</node>
+    <node x="228.0" y="0.0">factory1.Doughnut</node>
+    <node x="309.0" y="304.0">factory1.DoughnutType</node>
+    <node x="204.0" y="103.0">factory1.CherryDoughnut</node>
+    <node x="0.0" y="103.0">factory1.ChocolateDoughnut</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="factory1.CherryDoughnut" target="factory1.Doughnut">
+      <point x="0.0" y="-26.5" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="factory1.Main" target="factory1.DoughnutFactory">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="factory1.AlmondDoughnut" target="factory1.ChocolateDoughnut">
+      <point x="-40.0" y="-26.5" />
+      <point x="203.4" y="181.0" />
+      <point x="92.0" y="181.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="factory1.Main" target="factory1.DoughnutType">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="factory1.DoughnutFactory" target="factory1.Doughnut">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="factory1.DoughnutFactory" target="factory1.ChocolateDoughnut">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="factory1.DoughnutFactory" target="factory1.CherryDoughnut">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="factory1.DoughnutFactory" target="factory1.AlmondDoughnut">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="factory1.ChocolateDoughnut" target="factory1.Doughnut">
+      <point x="0.0" y="-26.5" />
+      <point x="92.0" y="78.0" />
+      <point x="246.66666666666669" y="78.0" />
+      <point x="-37.33333333333334" y="26.5" />
+    </edge>
+    <edge source="factory1.DoughnutFactory" target="factory1.DoughnutType">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="factory1.AlmondDoughnut" target="factory1.Doughnut">
+      <point x="40.0" y="-26.5" />
+      <point x="283.4" y="181.0" />
+      <point x="374.5" y="181.0" />
+      <point x="374.5" y="78.0" />
+      <point x="321.33333333333337" y="78.0" />
+      <point x="37.33333333333337" y="26.5" />
+    </edge>
+    <edge source="factory1.Main" target="factory1.Doughnut">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.1" x="272.0" y="346.3636363636363" />
+  <SelectedNodes>
+    <node>factory1.DoughnutFactory</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
