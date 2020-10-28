@@ -4,6 +4,7 @@ public class Program {
     public static void main(String[] args) {
         DeveloperFactory developerFactory = createDeveloperBySpecialty("php");
         Developer developer = developerFactory.createDeveloper();
+
         developer.writeCode();
 
 
@@ -23,4 +24,5 @@ public class Program {
             throw new RuntimeException((specialty + "is unknown specialty."));
         }
     }
+
 }

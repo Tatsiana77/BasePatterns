@@ -3,76 +3,90 @@
   <ID>JAVA</ID>
   <OriginalElement>factory1</OriginalElement>
   <nodes>
-    <node x="0.0" y="304.0">factory1.DoughnutFactory</node>
-    <node x="163.4" y="206.0">factory1.AlmondDoughnut</node>
-    <node x="0.0" y="491.0">factory1.Main</node>
-    <node x="228.0" y="0.0">factory1.Doughnut</node>
-    <node x="309.0" y="304.0">factory1.DoughnutType</node>
-    <node x="204.0" y="103.0">factory1.CherryDoughnut</node>
-    <node x="0.0" y="103.0">factory1.ChocolateDoughnut</node>
+    <node x="398.3068181818182" y="295.0">factory1.DoughnutFactory</node>
+    <node x="626.5" y="147.5">factory1.AlmondDoughnut</node>
+    <node x="110.30681818181819" y="487.0">factory1.Main</node>
+    <node x="450.89318181818186" y="0.0">factory1.Doughnut</node>
+    <node x="10.5" y="103.0">factory1.DoughnutType</node>
+    <node x="242.5" y="147.5">factory1.CherryDoughnut</node>
+    <node x="422.5" y="147.5">factory1.ChocolateDoughnut</node>
   </nodes>
   <notes />
   <edges>
+    <edge source="factory1.DoughnutFactory" target="factory1.AlmondDoughnut">
+      <point x="52.80000000000001" y="-71.0" />
+      <point x="583.1068181818182" y="265.0" />
+      <point x="706.5" y="265.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="factory1.DoughnutFactory" target="factory1.DoughnutType">
+      <point x="-105.60000000000002" y="-71.0" />
+      <point x="424.70681818181816" y="275.0" />
+      <point x="169.5" y="275.0" />
+      <point x="53.0" y="71.0" />
+    </edge>
+    <edge source="factory1.Main" target="factory1.Doughnut">
+      <point x="-121.125" y="-48.5" />
+      <point x="150.6818181818182" y="467.0" />
+      <point x="0.0" y="467.0" />
+      <point x="0.0" y="73.0" />
+      <point x="462.09318181818185" y="73.0" />
+      <point x="-44.80000000000001" y="26.5" />
+    </edge>
     <edge source="factory1.CherryDoughnut" target="factory1.Doughnut">
       <point x="0.0" y="-26.5" />
-      <point x="0.0" y="26.5" />
+      <point x="322.5" y="83.0" />
+      <point x="484.4931818181819" y="83.0" />
+      <point x="-22.399999999999977" y="26.5" />
     </edge>
     <edge source="factory1.Main" target="factory1.DoughnutFactory">
-      <point x="0.0" y="0.0" />
-      <point x="0.0" y="0.0" />
-    </edge>
-    <edge source="factory1.AlmondDoughnut" target="factory1.ChocolateDoughnut">
-      <point x="-40.0" y="-26.5" />
-      <point x="203.4" y="181.0" />
-      <point x="92.0" y="181.0" />
-      <point x="0.0" y="26.5" />
+      <point x="40.375" y="-48.5" />
+      <point x="312.1818181818182" y="457.0" />
+      <point x="464.3068181818182" y="457.0" />
+      <point x="-66.0" y="71.0" />
     </edge>
     <edge source="factory1.Main" target="factory1.DoughnutType">
-      <point x="0.0" y="0.0" />
-      <point x="0.0" y="0.0" />
+      <point x="-40.375" y="-48.5" />
+      <point x="231.4318181818182" y="457.0" />
+      <point x="63.5" y="457.0" />
+      <point x="-53.0" y="71.0" />
     </edge>
     <edge source="factory1.DoughnutFactory" target="factory1.Doughnut">
-      <point x="0.0" y="0.0" />
-      <point x="0.0" y="0.0" />
+      <point x="105.60000000000002" y="-71.0" />
+      <point x="635.9068181818182" y="275.0" />
+      <point x="797.0" y="275.0" />
+      <point x="797.0" y="73.0" />
+      <point x="551.6931818181818" y="73.0" />
+      <point x="44.799999999999955" y="26.5" />
     </edge>
     <edge source="factory1.DoughnutFactory" target="factory1.ChocolateDoughnut">
-      <point x="0.0" y="0.0" />
-      <point x="0.0" y="0.0" />
+      <point x="0.0" y="-71.0" />
+      <point x="530.3068181818182" y="275.0" />
+      <point x="514.5" y="275.0" />
+      <point x="0.0" y="26.5" />
     </edge>
     <edge source="factory1.DoughnutFactory" target="factory1.CherryDoughnut">
-      <point x="0.0" y="0.0" />
-      <point x="0.0" y="0.0" />
-    </edge>
-    <edge source="factory1.DoughnutFactory" target="factory1.AlmondDoughnut">
-      <point x="0.0" y="0.0" />
-      <point x="0.0" y="0.0" />
+      <point x="-52.80000000000001" y="-71.0" />
+      <point x="477.5068181818182" y="265.0" />
+      <point x="322.5" y="265.0" />
+      <point x="0.0" y="26.5" />
     </edge>
     <edge source="factory1.ChocolateDoughnut" target="factory1.Doughnut">
       <point x="0.0" y="-26.5" />
-      <point x="92.0" y="78.0" />
-      <point x="246.66666666666669" y="78.0" />
-      <point x="-37.33333333333334" y="26.5" />
-    </edge>
-    <edge source="factory1.DoughnutFactory" target="factory1.DoughnutType">
-      <point x="0.0" y="0.0" />
-      <point x="0.0" y="0.0" />
+      <point x="514.5" y="83.0" />
+      <point x="506.89318181818186" y="83.0" />
+      <point x="0.0" y="26.5" />
     </edge>
     <edge source="factory1.AlmondDoughnut" target="factory1.Doughnut">
-      <point x="40.0" y="-26.5" />
-      <point x="283.4" y="181.0" />
-      <point x="374.5" y="181.0" />
-      <point x="374.5" y="78.0" />
-      <point x="321.33333333333337" y="78.0" />
-      <point x="37.33333333333337" y="26.5" />
-    </edge>
-    <edge source="factory1.Main" target="factory1.Doughnut">
-      <point x="0.0" y="0.0" />
-      <point x="0.0" y="0.0" />
+      <point x="0.0" y="-26.5" />
+      <point x="706.5" y="83.0" />
+      <point x="529.2931818181819" y="83.0" />
+      <point x="22.399999999999977" y="26.5" />
     </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="1.1" x="272.0" y="346.3636363636363" />
+  <settings layout="Hierarchic Group" zoom="1.1" x="260.5" y="294.0" />
   <SelectedNodes>
-    <node>factory1.DoughnutFactory</node>
+    <node>factory1.Main</node>
   </SelectedNodes>
   <Categories>
     <Category>Fields</Category>
